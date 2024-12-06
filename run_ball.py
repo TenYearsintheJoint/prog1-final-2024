@@ -2,7 +2,8 @@ import turtle
 import ball
 import random
 
-class run:
+class Run:
+
     def ball(self,num_balls = 5):
         self.num_balls = num_balls
         turtle.speed(0)
